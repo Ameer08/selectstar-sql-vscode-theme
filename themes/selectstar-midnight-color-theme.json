@@ -1,0 +1,338 @@
+{
+  "name": "SQL Dark Pro - High Contrast",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1b26",
+    "editor.foreground": "#c0caf5",
+    "editorLineNumber.foreground": "#565f89",
+    "editorLineNumber.activeForeground": "#7aa2f7",
+    "editor.selectionBackground": "#364a82",
+    "editor.inactiveSelectionBackground": "#28344a",
+    "editor.lineHighlightBackground": "#24283b",
+    "editorCursor.foreground": "#7dcfff",
+    "editorWhitespace.foreground": "#414868",
+    "editorIndentGuide.background": "#292e42",
+    "editorIndentGuide.activeBackground": "#414868",
+    
+    "editor.findMatchBackground": "#3d59a1",
+    "editor.findMatchHighlightBackground": "#3d59a144",
+    "editor.wordHighlightBackground": "#3d59a144",
+    "editor.wordHighlightStrongBackground": "#3d59a188",
+    
+    "editorBracketMatch.background": "#3d59a144",
+    "editorBracketMatch.border": "#7aa2f7",
+    
+    "activityBar.background": "#16161e",
+    "activityBar.foreground": "#c0caf5",
+    "activityBar.inactiveForeground": "#565f89",
+    "activityBarBadge.background": "#7aa2f7",
+    "activityBarBadge.foreground": "#16161e",
+    
+    "sideBar.background": "#16161e",
+    "sideBar.foreground": "#c0caf5",
+    "sideBarTitle.foreground": "#c0caf5",
+    "sideBarSectionHeader.background": "#1f2335",
+    "sideBarSectionHeader.foreground": "#c0caf5",
+    
+    "list.activeSelectionBackground": "#2f3549",
+    "list.activeSelectionForeground": "#c0caf5",
+    "list.inactiveSelectionBackground": "#24283b",
+    "list.hoverBackground": "#24283b",
+    
+    "statusBar.background": "#16161e",
+    "statusBar.foreground": "#c0caf5",
+    "statusBar.noFolderBackground": "#16161e",
+    "statusBar.debuggingBackground": "#f7768e",
+    "statusBar.debuggingForeground": "#16161e",
+    
+    "titleBar.activeBackground": "#16161e",
+    "titleBar.activeForeground": "#c0caf5",
+    "titleBar.inactiveBackground": "#16161e",
+    "titleBar.inactiveForeground": "#565f89",
+    
+    "tab.activeBackground": "#1a1b26",
+    "tab.inactiveBackground": "#16161e",
+    "tab.activeForeground": "#c0caf5",
+    "tab.inactiveForeground": "#565f89",
+    "tab.border": "#16161e",
+    "tab.activeBorder": "#7aa2f7",
+    "tab.activeBorderTop": "#7aa2f7",
+    
+    "editorGroupHeader.tabsBackground": "#16161e",
+    "editorGroupHeader.tabsBorder": "#16161e",
+    
+    "panel.background": "#16161e",
+    "panel.border": "#1f2335",
+    "panelTitle.activeBorder": "#7aa2f7",
+    "panelTitle.activeForeground": "#c0caf5",
+    "panelTitle.inactiveForeground": "#565f89",
+    
+    "terminal.foreground": "#c0caf5",
+    "terminal.background": "#1a1b26",
+    "terminal.ansiBlack": "#414868",
+    "terminal.ansiRed": "#f7768e",
+    "terminal.ansiGreen": "#9ece6a",
+    "terminal.ansiYellow": "#e0af68",
+    "terminal.ansiBlue": "#7aa2f7",
+    "terminal.ansiMagenta": "#bb9af7",
+    "terminal.ansiCyan": "#7dcfff",
+    "terminal.ansiWhite": "#c0caf5",
+    
+    "input.background": "#1f2335",
+    "input.border": "#414868",
+    "input.foreground": "#c0caf5",
+    "inputOption.activeBackground": "#3d59a1",
+    "inputOption.activeBorder": "#7aa2f7",
+    
+    "dropdown.background": "#1f2335",
+    "dropdown.border": "#414868",
+    "dropdown.foreground": "#c0caf5",
+    
+    "button.background": "#7aa2f7",
+    "button.foreground": "#16161e",
+    "button.hoverBackground": "#5d88e6"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "comment.line",
+        "comment.block",
+        "comment.line.double-dash.sql",
+        "comment.block.sql",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#565f89",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SQL Main Keywords - SELECT, FROM, WHERE",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.sql",
+        "keyword.other.create.sql",
+        "keyword.other.order.sql"
+      ],
+      "settings": {
+        "foreground": "#bb9af7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL Action Keywords - INSERT, UPDATE, DELETE, DROP",
+      "scope": [
+        "keyword.other.DML.II.sql"
+      ],
+      "settings": {
+        "foreground": "#f7768e",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL JOIN Keywords",
+      "scope": [
+        "keyword.other.join.sql"
+      ],
+      "settings": {
+        "foreground": "#ff9e64",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL Logical Operators - AND, OR, NOT",
+      "scope": [
+        "keyword.operator.logical.sql"
+      ],
+      "settings": {
+        "foreground": "#e0af68",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL Comparison Operators - =, <, >, LIKE, IN, BETWEEN",
+      "scope": [
+        "keyword.operator.comparison.sql",
+        "keyword.operator.relational.sql"
+      ],
+      "settings": {
+        "foreground": "#73daca"
+      }
+    },
+    {
+      "name": "SQL Data Types - INT, VARCHAR, DATE, etc.",
+      "scope": [
+        "storage.type.sql",
+        "support.type.sql"
+      ],
+      "settings": {
+        "foreground": "#2ac3de",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SQL Aggregate Functions - COUNT, SUM, AVG, MAX, MIN",
+      "scope": [
+        "support.function.aggregate.sql",
+        "support.function.sql"
+      ],
+      "settings": {
+        "foreground": "#7dcfff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL String Functions - CONCAT, SUBSTRING, TRIM, etc.",
+      "scope": [
+        "support.function.string.sql",
+        "support.function.scalar.sql"
+      ],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "SQL Date/Time Functions",
+      "scope": [
+        "support.function.datetime.sql"
+      ],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "Function Names (generic)",
+      "scope": [
+        "entity.name.function.sql",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "Strings - Single and Double Quoted",
+      "scope": [
+        "string.quoted.single.sql",
+        "string.quoted.double.sql",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "name": "Numbers - Integers and Decimals",
+      "scope": [
+        "constant.numeric.sql",
+        "constant.numeric",
+        "constant.numeric.decimal",
+        "constant.numeric.integer"
+      ],
+      "settings": {
+        "foreground": "#ff9e64"
+      }
+    },
+    {
+      "name": "Table Names",
+      "scope": [
+        "entity.name.class.sql",
+        "variable.other.table.sql",
+        "entity.name.type.sql"
+      ],
+      "settings": {
+        "foreground": "#7aa2f7",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Column Names",
+      "scope": [
+        "variable.other.column.sql",
+        "variable.other.member.sql",
+        "variable.other.property.sql"
+      ],
+      "settings": {
+        "foreground": "#c0caf5"
+      }
+    },
+    {
+      "name": "SQL Constants - NULL, TRUE, FALSE",
+      "scope": [
+        "constant.language.sql",
+        "constant.language.null.sql",
+        "constant.language.boolean.sql"
+      ],
+      "settings": {
+        "foreground": "#ff9e64",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Wildcards - Asterisk (*)",
+      "scope": [
+        "keyword.operator.star.sql",
+        "constant.other.wildcard.asterisk.sql"
+      ],
+      "settings": {
+        "foreground": "#ff9e64",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Parentheses and Brackets",
+      "scope": [
+        "punctuation.section.scope.begin.sql",
+        "punctuation.section.scope.end.sql",
+        "punctuation.parenthesis.begin",
+        "punctuation.parenthesis.end"
+      ],
+      "settings": {
+        "foreground": "#9d7cd8"
+      }
+    },
+    {
+      "name": "Commas and Semicolons",
+      "scope": [
+        "punctuation.separator.comma.sql",
+        "punctuation.terminator.statement.sql",
+        "punctuation.separator"
+      ],
+      "settings": {
+        "foreground": "#73daca"
+      }
+    },
+    {
+      "name": "Aliases - AS keyword",
+      "scope": [
+        "keyword.other.alias.sql"
+      ],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "Schema/Database Names",
+      "scope": [
+        "entity.name.schema.sql",
+        "variable.other.database.sql"
+      ],
+      "settings": {
+        "foreground": "#bb9af7"
+      }
+    },
+    {
+      "name": "Variables - @variable, :parameter",
+      "scope": [
+        "variable.other.readwrite.sql",
+        "variable.parameter.sql"
+      ],
+      "settings": {
+        "foreground": "#f7768e"
+      }
+    }
+  ]
+}
