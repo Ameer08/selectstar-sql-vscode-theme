@@ -1,26 +1,34 @@
 {
     "name": "selectstar-theme",
     "displayName": "SelectStar",
-    "description": "A clean, familiar dark colour theme optimised for SQL readability.",
+    "description": "A clean, familiar light and dark theme collection optimised for SQL readability.",
     "version": "1.1.0",
     "publisher": "ameerQ",
     "license": "MIT",
     "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ameer08/selectstar-sql-vscode-theme.git"
+    },
+    "homepage": "https://github.com/Ameer08/selectstar-sql-vscode-theme",
+    "bugs": {
+        "url": "https://github.com/Ameer08/selectstar-sql-vscode-theme/issues"
+    },
     "engines": {
         "vscode": "^1.85.0"
     },
 
     "categories": ["Themes"],
-    "keywords": ["theme", "color-theme", "sql", "database", "dark"],
+    "keywords": ["theme", "color-theme", "sql", "database", "dark", "light", "ssms"],
     "contributes": {
         "themes": [
             {
-                "label": "S (PelectStar – Dark",
+                "label": "SelectStar – Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/selectstar-dark-color-theme.json"
             },
             {
-                "label": "SelectStar – Darkink Star)",
+                "label": "SelectStar – Dark (Pink Star)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/selectstar-dark-pink-color-theme.json"
             },

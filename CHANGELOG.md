@@ -3,6 +3,9 @@
 ## 1.1.0
 - Added new theme variant: SelectStar – SSMS Light (SSMS-inspired light theme)
 - Refined find match highlight background in SelectStar – Dark for improved clarity
+- Added repository metadata for Marketplace assets
+- Updated package description/keywords to include light theme
+- Updated extension icon
 
 ## 1.0.0
 - First stable release
