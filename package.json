@@ -2,7 +2,7 @@
     "name": "selectstar-theme",
     "displayName": "SelectStar",
     "description": "A clean, familiar light and dark theme collection optimised for SQL readability.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "ameerQ",
     "license": "MIT",
     "icon": "icon.png",
