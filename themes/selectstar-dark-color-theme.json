@@ -23,12 +23,13 @@
     "editorIndentGuide.activeBackground1": "#617995",
     "editorRuler.foreground": "#2A3441",
     
-    "editor.findMatchBackground": "#24364A99",
-    "editor.findMatchHighlightBackground": "#24364A66",
+    "editor.findMatchBackground": "#315079cc",
+    "editor.findMatchHighlightBackground": "#31507966",
+    "editor.findRangeHighlightBackground": "#31507933",
 
-    "editor.wordHighlightBackground": "#24282E",
-    "editor.wordHighlightStrongBorder": "#2F343C",
-    "editor.wordHighlightStrongBackground": "#2F343C",
+    "editor.wordHighlightBackground": "#344354",
+    "editor.wordHighlightStrongBorder": "#3F546D",
+    "editor.wordHighlightStrongBackground": "#69BBFD",
     
     "editorBracketMatch.background": "#31507977",
     "editorBracketMatch.border": "#23599b77",
@@ -64,21 +65,28 @@
     "statusBar.background": "#080808",
     "statusBar.foreground": "#a5a5a5",
     "statusBar.noFolderBackground": "#181818",
-    "statusBar.debuggingBackground": "#ff6b6b",
-    "statusBar.debuggingForeground": "#181818",
+    
+    "statusBar.debuggingBackground": "#ff7b72",
+    "statusBar.debuggingForeground": "#0b0d12",
+
+    "statusBarItem.hoverBackground": "#e66a63",
+    "statusBarItem.hoverForeground": "#0b0d12",
     
     "titleBar.activeBackground": "#080808",
     "titleBar.inactiveBackground": "#080808",
     "titleBar.activeForeground": "#E7E9EE",
-    "titleBar.inactiveForeground": "#a5a5a5",
-    "titleBar.border": "#080808",
+    "titleBar.inactiveForeground": "#8b949e",
+    "titleBar.border": "#21262d",
     
-    "tab.activeBackground": "#101010",
+    "tab.activeBackground": "#263c5e99",
     "tab.inactiveBackground": "#1b1b1b",
+
     "tab.activeForeground": "#E7E9EE",
     "tab.inactiveForeground": "#a5a5a5",
-    "tab.activeBorder": "#7d8796",
+
+    "tab.activeBorder": "#c9d1d9",
     "tab.border": "#202020",
+
     "tab.activeModifiedBorder": "#E6AF3F",
     "tab.inactiveModifiedBorder": "#D9AE4A",
     
@@ -110,7 +118,7 @@
     "button.background": "#69BBFD",
     "button.foreground": "#0B0E14",
     "button.hoverBackground": "#5AAAF0",
-    "focusBorder": "#69BBFD",
+    "focusBorder": "#315079",
     "editorSuggestWidget.background": "#0C0C0C",
     "editorSuggestWidget.foreground": "#E5E7EB",
     "editorSuggestWidget.border": "#315079",

@@ -17,9 +17,18 @@
     "engines": {
         "vscode": "^1.85.0"
     },
-
-    "categories": ["Themes"],
-    "keywords": ["theme", "color-theme", "sql", "database", "dark", "light", "ssms"],
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "color-theme",
+        "sql",
+        "database",
+        "dark",
+        "light",
+        "ssms"
+    ],
     "contributes": {
         "themes": [
             {
@@ -36,6 +45,11 @@
                 "label": "SelectStar – SSMS Light",
                 "uiTheme": "vs",
                 "path": "./themes/selectstar-light-ssms-color-theme.json"
+            },
+            {
+                "label": "SelectStar – Code Block",
+                "uiTheme": "vs-dark",
+                "path": "./themes/selectstar-dark-codeblock-color-theme.json"
             }
         ]
     }
