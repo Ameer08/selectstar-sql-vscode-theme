@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.1
+- Improved selection readability in dark themes, including comments and low-contrast text
+- Refined word highlight behaviour for clearer distinction between active and related occurrences
+- Improved find and search highlighting consistency
+- Fixed IntelliSense suggestion highlighting that previously caused reduced readability
+- Updated status bar hover behaviour for better visual feedback
+- Minor refinements to line highlighting in the editor
+
+Applies to:
+- SelectStar – Dark
+- SelectStar – Code Block
+- SelectStar – Dark (Pink Star)
+
 ## 1.2.0
 - Added new theme variant: **SelectStar – Code Block**, optimised for dense code blocks and data-heavy workflows
 - Refined colour hierarchy across SelectStar – Dark for improved clarity and consistency

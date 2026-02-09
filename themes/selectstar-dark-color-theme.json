@@ -10,9 +10,9 @@
     
     "editorLineNumber.foreground": "#5a6169",
     "editorLineNumber.activeForeground": "#b9b9b9",
-    "editor.lineHighlightBackground": "#2c394570",
+    "editor.lineHighlightBackground": "#1e252c70",
     
-    "editor.selectionBackground": "#24364A",
+    "editor.selectionBackground": "#1f2d3a",
     "editor.selectionForeground": "#E5E7EB",
     "editor.selectionHighlightBackground": "#24364A66",
     "editor.inactiveSelectionBackground": "#24364A55",
@@ -23,13 +23,13 @@
     "editorIndentGuide.activeBackground1": "#617995",
     "editorRuler.foreground": "#2A3441",
     
-    "editor.findMatchBackground": "#315079cc",
-    "editor.findMatchHighlightBackground": "#31507966",
-    "editor.findRangeHighlightBackground": "#31507933",
+    "editor.findMatchBackground": "#2a3441cc",
+    "editor.findMatchHighlightBackground": "#2a344166",
+    "editor.findRangeHighlightBackground": "#2a344133",
 
-    "editor.wordHighlightBackground": "#344354",
-    "editor.wordHighlightStrongBorder": "#3F546D",
-    "editor.wordHighlightStrongBackground": "#69BBFD",
+    "editor.wordHighlightBackground": "#2a3441",
+    "editor.wordHighlightStrongBorder": "#315079",
+    "editor.wordHighlightStrongBackground": "#31507966",
     
     "editorBracketMatch.background": "#31507977",
     "editorBracketMatch.border": "#23599b77",
@@ -119,12 +119,19 @@
     "button.foreground": "#0B0E14",
     "button.hoverBackground": "#5AAAF0",
     "focusBorder": "#315079",
+
+    "editorSuggestWidget.selectedBackground": "#263c5e99",
+    "editorSuggestWidget.selectedForeground": "#e7e9ee",
+    "editorSuggestWidget.selectedIconForeground": "#e7e9ee",
+
+    "editorSuggestWidget.highlightForeground": "#e3b341",
+    "editorSuggestWidget.focusHighlightForeground": "#e3b341",
+    
     "editorSuggestWidget.background": "#0C0C0C",
     "editorSuggestWidget.foreground": "#E5E7EB",
+    
     "editorSuggestWidget.border": "#315079",
-    "editorSuggestWidget.selectedBackground": "#3F6FA6",
-    "editorSuggestWidget.highlightForeground": "#E6AF3F",
-    "editorSuggestWidget.focusHighlightForeground": "#69BBFD",
+    
     "gitDecoration.modifiedResourceForeground": "#E6AF3F",
     "gitDecoration.untrackedResourceForeground": "#69BBFD",
     "gitDecoration.deletedResourceForeground": "#FF6B6B",

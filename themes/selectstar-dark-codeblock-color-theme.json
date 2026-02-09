@@ -132,12 +132,14 @@
     "focusBorder": "#1b232f",
 
     "editorSuggestWidget.background": "#0D1117",
-    "editorSuggestWidget.foreground": "#e3e6ea",
     "editorSuggestWidget.border": "#1b232f",
 
-    "editorSuggestWidget.selectedBackground": "#426297",
+    "editorSuggestWidget.selectedBackground": "#263c5e99",
+    "editorSuggestWidget.selectedForeground": "#e7e9ee",
+    "editorSuggestWidget.selectedIconForeground": "#e7e9ee",
+
     "editorSuggestWidget.highlightForeground": "#e3b341",
-    "editorSuggestWidget.focusHighlightForeground": "#426297",
+    "editorSuggestWidget.focusHighlightForeground": "#e3b341",
 
     "editorHoverWidget.background": "#0b0d12",
     "editorHoverWidget.foreground": "#e6edf3",
