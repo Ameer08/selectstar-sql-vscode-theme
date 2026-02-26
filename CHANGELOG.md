@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.2.2
+
+- Introduced steel blue (#6b9fc4) accent system for editor interactions, replacing previous highlights that were too similar to the selection background
+- Improved word highlight visibility with clear distinction between read and write references
+- Refined find match, bracket match and selection highlight opacities for better visual hierarchy
+- Updated list, suggest widget and quick input highlights to use consistent steel blue accent
+- Added steel blue indent guide for active scope visibility
+- Fixed status bar hover using an orange-red background that clashed with the theme
+- Fixed quick input background having a slight green tint
+- Unified inactive selection background with the selection colour family
+
 ## 1.2.1
 - Improved selection readability in dark themes, including comments and low-contrast text
 - Refined word highlight behaviour for clearer distinction between active and related occurrences
